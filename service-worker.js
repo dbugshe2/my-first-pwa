@@ -61,7 +61,7 @@ self.addEventListener('fetch', function(e) {
             cache.put(e.request.url, response.clone());
             return response;
           });
-        })
+        }) 
       );
     } else {
       /*
